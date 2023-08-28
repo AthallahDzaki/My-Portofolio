@@ -135,7 +135,7 @@ const educationInfo = {
     },
     {
       schoolName: "SMAN 9 Malang",
-      logo: "http://sman9-malang.sch.id/files/logo%20sman%209%20malang.jpg",
+      logo: require("./assets/images/sman9.png"),
       subHeader: "Senior High School",
       duration: "June 2020 - July 2023",
       desc: "SMAN 9 Malang is a public senior high school located in Malang, East Java, Indonesia.",
@@ -145,7 +145,7 @@ const educationInfo = {
     },
     {
       schoolName: "SMPN 4 Malang",
-      logo: "https://smpn4-malang.sch.id/media_library/images/96a3b82cf5c03dd7c779ac57d1795f6e.png",
+      logo: require("./assets/images/smpn4.png"),
       subHeader: "Junior High School",
       duration: "June 2017 - June 2020",
       desc: "SMPN 4 Malang is a public junior high school located in Malang, East Java, Indonesia.",
@@ -155,7 +155,7 @@ const educationInfo = {
     },
     {
       schoolName: "SDN Tunjung Sekar 1 Malang",
-      logo: "https://www.sdntunjungsekar1.sch.id//gambar/website/logo1.png",
+      logo: require("./assets/images/sdn1.png"),
       subHeader: "Elementary School",
       duration: "June 2011 - April 2017",
       desc: "SDN Tunjung Sekar 1 Malang is a public elementary school located in Malang, East Java, Indonesia.",
