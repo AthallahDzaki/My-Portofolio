@@ -135,7 +135,7 @@ const educationInfo = {
     },
     {
       schoolName: "SMAN 9 Malang",
-      logo: require("./assets/images/sman9.png"),
+      logo: require("./assets/images/sman9.jpg"),
       subHeader: "Senior High School",
       duration: "June 2020 - July 2023",
       desc: "SMAN 9 Malang is a public senior high school located in Malang, East Java, Indonesia.",
