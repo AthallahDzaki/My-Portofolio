@@ -20,26 +20,24 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Athallah Dzaki",
+  title: emoji("What's up! I'm Athallah Dzaki 🤘"),
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  resumeLink:"",
+    //"https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/athallahdzaki",
+  linkedin: "https://www.linkedin.com/in/athallah-dzaki/",
+  gmail: "me@athallahdzaki.my.id",
+  facebook: "https://www.facebook.com/athallah.dzaki.anggoro.s",
+  discord: ".angga",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,7 +47,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "MIDDLE CLASS FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -72,10 +70,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+    // {
+    //   skillName: "sass",
+    //   fontAwesomeClassname: "fab fa-sass"
+    // },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -88,34 +86,34 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "mysql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    // {
+    //   skillName: "aws",
+    //   fontAwesomeClassname: "fab fa-aws"
+    // },
+    // {
+    //   skillName: "firebase",
+    //   fontAwesomeClassname: "fas fa-fire"
+    // },
+    // {
+    //   skillName: "python",
+    //   fontAwesomeClassname: "fab fa-python"
+    // },
+    // {
+    //   skillName: "docker",
+    //   fontAwesomeClassname: "fab fa-docker"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +124,42 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Institut Teknologi Nasional Malang",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/c/ce/LOGO_ITN.png",
+      subHeader: "Bachelor of Science in Informatics Engineering",
+      duration: "September 2023 - Present",
+      desc: "Institut Teknologi Nasional Malang is a private university located in Malang, East Java, Indonesia.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        ""
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "SMAN 9 Malang",
+      logo: "http://sman9-malang.sch.id/files/logo%20sman%209%20malang.jpg",
+      subHeader: "Senior High School",
+      duration: "June 2020 - July 2023",
+      desc: "SMAN 9 Malang is a public senior high school located in Malang, East Java, Indonesia.",
+      descBullets: [
+        ""
+      ]
+    },
+    {
+      schoolName: "SMPN 4 Malang",
+      logo: "https://smpn4-malang.sch.id/media_library/images/96a3b82cf5c03dd7c779ac57d1795f6e.png",
+      subHeader: "Junior High School",
+      duration: "June 2017 - June 2020",
+      desc: "SMPN 4 Malang is a public junior high school located in Malang, East Java, Indonesia.",
+      descBullets: [
+        ""
+      ]
+    },
+    {
+      schoolName: "SDN Tunjung Sekar 1 Malang",
+      logo: "https://www.sdntunjungsekar1.sch.id//gambar/website/logo1.png",
+      subHeader: "Elementary School",
+      duration: "June 2011 - April 2017",
+      desc: "SDN Tunjung Sekar 1 Malang is a public elementary school located in Malang, East Java, Indonesia.",
+      descBullets: [""]
     }
   ]
 };
@@ -154,24 +171,24 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "40%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Programming",
       progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -239,7 +256,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -300,7 +317,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +341,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +360,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,15 +373,15 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "- (Private Only) ",
+  email_address: "me@athallahdzaki.my.id"
 };
 
 // Twitter Section
