@@ -30,6 +30,8 @@ jobs:
 
       - name: Install and Build 🔧 # Build the Project
         run: |
+          git config --global user.name '${{ github.repository_owner }}'
+          git config --global user.email 'me@athallahdzaki.my.id'
           npm install
           npm run build
           gh-pages -b main -d build
